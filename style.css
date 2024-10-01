@@ -1,0 +1,337 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.container{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: radial-gradient(yellow,green);
+}
+nav button{
+    background: linear-gradient(red,blue);
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    margin-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    background: conic-gradient(yellow,red,blue,red,yellow);
+}
+
+.maintext{
+    width: 350px;
+    height: 460px;
+}
+ main p{
+    font-size: 1.2em;
+    margin-bottom: 15px;
+ }
+
+h1{
+    font-size: 4em;
+}
+
+
+.section1 h2{
+    font-size: 2.5em;
+    
+}
+
+.section1{
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 70px;
+    background: radial-gradient(green,orange, black);
+}
+
+.section2 h2{
+    font-size: 2.5em;
+    
+}
+
+.section2{
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+  background-image: linear-gradient(to right,white,red);;
+}
+.section3{
+    padding-left: 50px;
+    padding-right:50px ;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+
+}
+
+.section3 p{
+    color: grey;
+
+}
+
+.section3 h3{
+    font-size: 1.5em;
+}
+
+.section4 div h2{
+    font-size: 2.5em;
+    width: 380px;
+}
+
+.section4{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+.btn1{
+    padding: 13px 50px;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn2{
+    padding: 13px 50px;
+    border: none;
+    border-radius: 8px;
+}
+.pg1 h2{
+    font-size: 2em;
+}
+
+.pg1{
+    width: 280px;
+    height: 350px;
+    text-align: center;
+    padding: 15px;
+    line-height: 50px;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    background-image: linear-gradient(orange,red,black);
+}
+
+.pg2 h2{
+    font-size: 2em;
+}
+
+.pg2{
+    width: 280px;
+    height: 370px;
+    text-align: center;
+    padding: 15px;
+    line-height: 54px;
+    background-color:orange;
+    border-radius: 20px;
+    background-image: linear-gradient(black,pink,yellow);
+}
+
+.pg3 h2{
+    font-size: 2em;
+}
+
+.pg3{
+    width: 280px;
+    height: 350px;
+    text-align: center;
+    padding: 15px;
+    line-height: 50px;
+    background-color: lightgray;
+    border-radius: 20px;
+    background-image: linear-gradient(red,blue,white);
+}
+
+.section5{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: end;
+    background-image: linear-gradient(red, yellow, green);
+}
+
+button{
+      background-image: linear-gradient(to right, red,orange,violet);
+} */
+
+.section3,
+main {
+  margin-top: 80px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  padding: 25px 50px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: radial-gradient(yellow, green);
+}
+.section1,
+main {
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+}
+nav button {
+  background: linear-gradient(red, #00f);
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  color: #000;
+}
+main {
+  justify-content: space-around;
+  gap: 50px;
+  background: conic-gradient(yellow, red, #00f, red, #ff0);
+}
+.maintext {
+  width: 350px;
+  height: 460px;
+}
+main p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+h1 {
+  font-size: 4em;
+}
+.section1 h2,
+.section2 h2 {
+  font-size: 2.5em;
+}
+.section1 {
+  padding-top: 80px;
+  justify-content: start;
+  gap: 70px;
+  background: radial-gradient(green, orange, #000);
+}
+.section2 {
+  padding-top: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  background-image: linear-gradient(to right, #fff, red);
+}
+.section3 {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+.section3 p {
+  color: grey;
+}
+.section3 h3 {
+  font-size: 1.5em;
+}
+.section4 div h2 {
+  font-size: 2.5em;
+  width: 380px;
+}
+.section4 {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
+.btn1,
+.btn2 {
+  padding: 13px 50px;
+  border: none;
+  border-radius: 8px;
+}
+.pg1,
+.pg2,
+.pg3 {
+  width: 280px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+}
+.pg1 h2,
+.pg2 h2,
+.pg3 h2 {
+  font-size: 2em;
+}
+.pg1 {
+  height: 350px;
+  line-height: 50px;
+  background-color: #d3d3d3;
+  background-image: linear-gradient(orange, red, #000);
+}
+.pg2 {
+  height: 370px;
+  line-height: 54px;
+  background-color: orange;
+  background-image: linear-gradient(black, pink, #ff0);
+}
+.pg3 {
+  height: 350px;
+  line-height: 50px;
+  background-color: #d3d3d3;
+  background-image: linear-gradient(red, #00f, #fff);
+}
+.section5 {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: end;
+  background-image: linear-gradient(red, #ff0, green);
+}
+button {
+  background-image: linear-gradient(to right, red, orange, violet);
+}
